@@ -1,7 +1,6 @@
 ---
 title: Text and Typography
-author: cotes
-date: 2023-10-07 21:03:00 +0800
+date: 2023-10-07 21:03:00
 categories: [Blogging, Demo]
 tags: [typography]
 pin: true
@@ -90,7 +89,7 @@ Moon
 
 ## Footnote
 
-Click the hook will locate the footnote[^footnote], and here is another footnote[^fn-nth-2].
+Click the hook will locate the footnote[^footnote]
 
 ## Inline code
 
