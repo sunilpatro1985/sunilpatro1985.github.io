@@ -31,11 +31,11 @@ Navigate to
 
 **Control Panel > System and Security > System > Advanced system settings**
 
-![](http://qavalidation.com/wp-content/uploads/2020/07/AdvancedSystemSetting_win10.jpg)
+![](https://qavalidation.com/wp-content/uploads/2020/07/AdvancedSystemSetting_win10.jpg)
 
 then you will get modal window to set the Env variables
 
-![](http://qavalidation.com/wp-content/uploads/2020/07/EnvVariables.jpg)
+![](https://qavalidation.com/wp-content/uploads/2020/07/EnvVariables.jpg)
 
 Click on New
 
@@ -43,7 +43,7 @@ add the variable name and value
 
 click on OK to save the variable.
 
-![](http://qavalidation.com/wp-content/uploads/2020/07/Setting_Env_Variable_win10.jpg)
+![](https://qavalidation.com/wp-content/uploads/2020/07/Setting_Env_Variable_win10.jpg)
 
 **To edit a variable value,** from the list of variables, click on any row > Edit… to update the changes.
 

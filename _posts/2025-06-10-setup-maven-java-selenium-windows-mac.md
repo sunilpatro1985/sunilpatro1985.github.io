@@ -23,7 +23,7 @@ Setup Maven
 
 **What is Maven build:**
 
-As per the [Apache Maven](http://maven.apache.org/), Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project’s build, reporting and documentation from a central piece of information.
+As per the [Apache Maven](https://maven.apache.org/), Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project’s build, reporting and documentation from a central piece of information.
 
 Maven simplifies the build process.
 
@@ -83,9 +83,9 @@ Open command prompt \[Windows OS\] or terminal \[Mac OS\] and enter below comman
 
 `mvn -version`
 
-![](http://qavalidation.com/wp-content/uploads/2016/08/VerifyMavenCommand.jpg)
+![](https://qavalidation.com/wp-content/uploads/2016/08/VerifyMavenCommand.jpg)
 
-Short url – [bit.ly/maveneclipse1](http://bit.ly/maveneclipse1)
+Short url – [bit.ly/maveneclipse1](https://bit.ly/maveneclipse1)
 
 If you are done with the Java & Maven setup, then move a step ahead and refer [how to create a maven project](https://qavalidation.com/2016/08/create-maven-test-and-pom-xml-maven-in-eclipse-part-2.html/) in either intelliJ or Ecplise IDE.
 
