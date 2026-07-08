@@ -1,0 +1,12 @@
+---
+title: "Post: Modified Date"
+last_modified_at: 2025-05-01T16:20:02-05:00
+categories:
+  - Blog
+tags:
+  - Post Formats
+  - readability
+  - standard
+---
+
+If we want to write java programme or use any Java based application, we need to install and setup JDK. Why JDK required? – in simple words, JDK \[Java development kit\] required to write any java program & JRE is required to run the java program. You can use below guide to setup JDK for both Windows or Mac OS. Setup JAVA: In MacOS – Most of time, you will get the Java preinstalled out of box, in case it’s not installed or you want to upgrade, please refer below guide To make sure if Java installed or not, Open Mac terminal and type java -version You will get the Java version as result output. If Java is not installed, then you can download Java from here https://www.oracle.com/java/technologies/downloads/#java11 Note – you need to create an account to download the JDK Environmental setup for Java – For Mac OS, When you install the JDK dmg file, it will be installed under MacHD > /Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk Now navigate to Users folder and show hidden files (Command + Shift + >) Find and open .zprofile (for Catalina / Big Sur OS) file in notepad or sublime text editor, and add the lines as export JAVA\_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home export PATH=$PATH:$JAVA\_HOME/bin To verify if Java is installed, open terminal and type java -version You will get the Java version as result output. For windows OS, JDK will be installed under path – C:\\Program Files\\Java\\jdk-X.X.X Open Environmental setup and under the User variable section, add the JDK path into the PATH variable. Variable = PATH Value = C:\\Program Files\\Java\\jdk-X.X.X\\bin Note – How to setup env variables in windows 10 To verify if Java is installed, open cmd and type java -version You will get the Java version as result output. Note – sometimes if the java version is not proper, then try restart your machine and verify java version in command prompt or terminal. Hope this helps!
