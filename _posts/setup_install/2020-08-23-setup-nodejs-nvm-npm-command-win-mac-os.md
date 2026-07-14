@@ -4,6 +4,7 @@ date: 2020-08-23
 categories: 
   - "playwright"
   - "typescript"
+tags: [setupInstall, node]  
 ---
 
 #### What is node.js

@@ -1,8 +1,8 @@
 ---
 title: "Git commands cheatsheet"
 date: 2020-01-06
-categories: 
-  - "git"
+categories: [MISC, GIT]
+tags: [git]  
 ---
 
 GitHub is one of the popular code repository and also used as version control tool, git provides various commands to perform operations like pushing code to remote repo, pulling code \[can be from somebody else or from the central repo\] and many other tasks.

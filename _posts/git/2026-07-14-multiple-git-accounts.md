@@ -2,8 +2,8 @@
 title: How to Manage Multiple GitHub Accounts on One Machine
 author: Sunil Patro
 date: 2026-07-14 17:00:00 +0530
-categories: [DevOps, Git]
-tags: [git, ssh, github, tutorial]
+categories: [DevOps, GIT]
+tags: [git, git accounts]     # TAG names should always be lowercase
 render_with_liquid: false
 ---
 

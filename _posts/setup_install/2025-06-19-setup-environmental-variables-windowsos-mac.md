@@ -2,8 +2,7 @@
 title: "Setup environmental variables or PATH in Windows & Mac OS"
 categories:
   - Selenium
-tags:
-  - QA
+tags: [setupInstall, env]  
   #- Post Formats
 #link: https://github.com
 ---

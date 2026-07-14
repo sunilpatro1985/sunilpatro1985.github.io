@@ -2,8 +2,7 @@
 title: "Setup maven java for windows mac OS"
 categories:
   - Selenium
-tags:
-  - QA
+tags: [setupInstall, maven, java]  
   #- Post Formats
 #link: https://github.com
 ---
