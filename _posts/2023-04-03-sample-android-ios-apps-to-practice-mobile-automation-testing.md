@@ -5,7 +5,6 @@ categories:
   - "appium"
 ---
 
-![](images/appium_general_thumbnail.png)
 
 In this post we will look into some of the freely available mobile applications (Android and IOS) to practice mobile automation testing.
 
