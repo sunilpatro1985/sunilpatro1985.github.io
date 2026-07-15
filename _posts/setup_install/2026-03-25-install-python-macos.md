@@ -2,7 +2,7 @@
 title: "Install Python on MacOS"
 last_modified_at: 2026-03-25T16:20:02-05:00
 categories:
-  - Blog
+  - BLOG
 tags: [setupInstall, python]  
 ---
 

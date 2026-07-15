@@ -7,6 +7,97 @@
 
 /* append your custom style below */
 
+
+/* ==========================================================================
+   Shared Styles (Applies to both Light and Dark themes)
+   ========================================================================== */
+body, header .post-desc, #toc-bar .label, #search-results a, h1, h2, h3, h4, h5 {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+.content {
+  font-size: 1rem;
+}
+
+
+/* ==========================================================================
+   DARK THEME OVERRIDES (Default / data-mode="dark")
+   ========================================================================== */
+//body[data-mode="dark"] {
+
+[data-bs-theme=dark]{
+  .site-title,
+  .rouge-code,
+  h1,
+  .fab, .fa-github, .fa-brands, .fa-x-twitter, .fas, .fa-envelope, .fa-rss,
+  .card-title, .card-text,
+  #post-list .card .card-body .card-title {
+    color: #2fffb9 !important;
+  }
+
+   /* 1. Set all headers to crisp white */
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+  }
+
+  /* 2. Set post paragraphs to a lower shade of white (soft light gray) 
+     for a more comfortable reading experience */
+  .content p {
+    color: #cbd5e1 !important; /* A clean, muted slate white/gray */
+  }
+
+  .site-subtitle,
+  .nav-link,
+  .content {
+    color: white !important;
+  }
+
+  #sidebar {
+    background: #211f2d;
+  }
+}
+
+
+/* ==========================================================================
+   LIGHT THEME OVERRIDES (data-mode="light")
+   ========================================================================== */
+[data-bs-theme=light]{
+  /* Neon green doesn't have great contrast on white, 
+     so I've swapped `#2fffb9` for a sleek dark teal/slate green (#0f766e) for readability. 
+     Feel free to tweak this color code! */
+  .site-title,
+  .rouge-code,
+  h1,
+  .fab, .fa-github, .fa-brands, .fa-x-twitter, .fas, .fa-envelope, .fa-rss,
+  .card-title, .card-text,
+  #post-list .card .card-body .card-title {
+    color: #0f766e !important; 
+  }
+
+  /* Swapped white text out for a dark slate gray for light mode readability */
+  .site-subtitle,
+  .nav-link,
+  .content {
+    color: #334155 !important;
+  }
+
+  /* A clean, light gray/blue sidebar to contrast the main light background */
+  #sidebar {
+    background: #f1f5f9;
+  }
+}
+
+/*
+
+body, header .post-desc, #toc-bar .label, #search-results a, h1, h2, h3, h4, h5 {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+
+}
+
+.content {
+  font-size: 1rem;
+}
+
 .site-title {
   color: #2fffb9 !important;
 }
@@ -41,10 +132,12 @@ h1 {
 
 #post-list .card .card-body .card-title {
     color: #2fffb9 !important;
-    font-size: 1.25rem;
+  //font-size: 1.25rem;
 }
 
 #sidebar{
   background: #211f2d;
 }
 
+
+*/
