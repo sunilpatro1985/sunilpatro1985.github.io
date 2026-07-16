@@ -3,6 +3,7 @@ title: "Sample Android & IOS apps to practice mobile automation testing"
 date: 2023-04-03
 categories: 
   - "APPIUM"
+tags: [DEMO, PRACTICE]     
 ---
 
 

@@ -15,7 +15,7 @@ If you are using Selenium library for Java language binding to write automation 
 
 **Setup JAVA:**
 
-For windows or Mac OS, you can refer here to [install and setup Java in detail](https://qavalidation.com/2022/03/install-and-setup-java-on-windows-and-mac-os.html/).
+For windows or Mac OS, you can refer here - [install and setup Java in detail]({% post_url /2025-06-19-install-setup-java-windows-mac %}).
 
 Setup Maven
 -----------
@@ -36,7 +36,7 @@ Navigate to [https://maven.apache.org/download.cgi](https://maven.apache.org/dow
 
 Scroll down to **Files** section
 
-![](https://qavalidation.com/wp-content/uploads/2016/08/download_Apache_Maven_qavbox-1.jpg)
+![My Photo](/assets/img/posts/download_apache_maven1.jpg)
 
 **For windows OS**
 
@@ -53,43 +53,39 @@ Command to extract –
 This normally extracts to current user folder, to know the path, use below command & note the path  
 `pwd`
 
-  
-  
-  
-
 **Environment variable setup for Maven**
 
 **For windows OS**
 
-`MAVEN_HOME = c:\Maven\apache-maven\apache-maven-X.X.X`  
-`Path = %MAVEN_HOME%\bin`
+```bash
+MAVEN_HOME = c:\Maven\apache-maven\apache-maven-X.X.X 
+Path = %MAVEN_HOME%\bin
+```
 
 **For MAC OS**
 
 Add below entries
 
-```
+```bash
 export M2_HOME=/Users/[UserName]/apache-maven-3.1.1 
 export PATH=$PATH:$M2_HOME/bin
 ```
 
 
-Note – refer [Setup env variable for windows or Mac OS](https://qavalidation.com/2020/07/how-to-setup-environmental-variables-or-path-in-windows-10.html/) to know how to add environment variables.
+Note – refer [Setup env variable for windows or Mac OS]({% post_url /2025-06-19-setup-env-variables-windowsos-mac %}) to know how to add environment variables.
 
 **Verify if Maven present:**
 
 Open command prompt \[Windows OS\] or terminal \[Mac OS\] and enter below command
 
-`mvn -version`
+```bash
+mvn -version
+```  
 
-![](https://qavalidation.com/wp-content/uploads/2016/08/VerifyMavenCommand.jpg)
+```Plaintext
+Apache maven - X.X.X
+Maven Home: [Local Path to apache maven]
+...
+```
 
-Short url – [bit.ly/maveneclipse1](https://bit.ly/maveneclipse1)
-
-If you are done with the Java & Maven setup, then move a step ahead and refer [how to create a maven project](https://qavalidation.com/2016/08/create-maven-test-and-pom-xml-maven-in-eclipse-part-2.html/) in either intelliJ or Ecplise IDE.
-
-
-#### Author: sunil patro
-
-Experience & exploration about software QA tools & techniques. Maintaining & writing blog posts on qavalidation.com! Publishing video tutorials on youtube.com/qavbox
 

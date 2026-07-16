@@ -58,7 +58,7 @@ Open Environmental setup and under the User variable section, add the JDK path i
 `Variable = PATH`  
 `Value = C:\Program Files\Java\jdk-X.X.X\bin`
 
-Note – [How to setup env variables in windows 10](https://qavalidation.com/2020/07/how-to-setup-environmental-variables-or-path-in-windows-10.html/)
+Note – refer [Setup env variable for windows or Mac OS]({% post_url /2025-06-19-setup-env-variables-windowsos-mac %}) to know how to add environment variables.
 
 To verify if Java is installed, open cmd and type
 
