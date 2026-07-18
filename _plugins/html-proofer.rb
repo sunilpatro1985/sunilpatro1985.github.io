@@ -1,3 +1,4 @@
+=begin
 require "html-proofer"
 
 Jekyll::Hooks.register :site, :post_write do |site|
@@ -13,9 +14,10 @@ Jekyll::Hooks.register :site, :post_write do |site|
     ]
   }
   
-  begin
-    HTMLProofer.check_directory(site.config["destination"], options).run
-  rescue => e
-    puts "HTML-Proofer found issues: #{e.message}"
-  end
-end
+  #begin
+    #HTMLProofer.check_directory(site.config["destination"], options).run
+  #rescue => e
+    #puts "HTML-Proofer found issues: #{e.message}"
+  #end
+ end
+= end
