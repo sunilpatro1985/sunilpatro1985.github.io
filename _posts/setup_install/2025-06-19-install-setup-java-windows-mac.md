@@ -1,7 +1,8 @@
 ---
 title: "Install and setup Java on Windows and Mac OS"
 categories:
-  - Selenium
+  - SELENIUM
+  - JAVA
 tags: [setupInstall, maven, java]  
   #- Post Formats
 #link: https://github.com
@@ -58,7 +59,7 @@ Open Environmental setup and under the User variable section, add the JDK path i
 `Variable = PATH`  
 `Value = C:\Program Files\Java\jdk-X.X.X\bin`
 
-Note – refer [Setup env variable for windows or Mac OS]({% post_url /2025-06-19-setup-env-variables-windowsos-mac %}) to know how to add environment variables.
+Note – refer [Setup env variable for windows or Mac OS]({% post_url setup_install/2025-06-19-setup-env-variables-windowsos-mac %}) to know how to add environment variables.
 
 To verify if Java is installed, open cmd and type
 

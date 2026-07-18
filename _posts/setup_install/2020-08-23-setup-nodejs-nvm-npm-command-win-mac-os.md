@@ -2,8 +2,9 @@
 title: "Setup Node.js flexible way with NVM [Windows / Mac OS]"
 date: 2020-08-23
 categories: 
-  - "playwright"
-  - "typescript"
+  - "PLAYWRIGHT"
+  - "TYPESCRIPT"
+  - "NODEJS"
 tags: [setupInstall, node]  
 ---
 

@@ -2,7 +2,9 @@
 title: "Java singleton pattern in Selenium framework"
 date: 2021-12-02
 categories: 
-  - "seleniumtesting"
+  - "SELENIUM"
+  - "FRAMEWORK"
+tags: ["selenium", "framework"]  
 ---
 
 The _singleton pattern_ is a software design pattern that restricts the instantiation of a class to one "single" instance.

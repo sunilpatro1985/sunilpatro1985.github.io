@@ -36,24 +36,25 @@ body, header .post-desc, #toc-bar .label, #search-results a, h1, h2, h3, h4, h5 
   }
 
    /* 1. Set all headers to crisp white */
-  h1, h2, h3, h4, h5, h6 {
-    color: #ffffff !important;
+  h2, h3, h4, h5, h6 {
+    //color: #9c9292 !important;
+    font-weight: 600;
   }
 
   /* 2. Set post paragraphs to a lower shade of white (soft light gray) 
      for a more comfortable reading experience */
   .content p {
-    color: #cbd5e1 !important; /* A clean, muted slate white/gray */
+    //color: #cbd5e1 !important; /* A clean, muted slate white/gray */
   }
 
   .site-subtitle,
   .nav-link,
   .content {
-    color: white !important;
+    //color: white !important;
   }
 
   #sidebar {
-    background: #211f2d;
+    background: #22212a;
   }
 }
 

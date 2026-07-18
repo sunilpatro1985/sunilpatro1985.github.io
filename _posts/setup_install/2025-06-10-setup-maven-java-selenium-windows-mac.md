@@ -1,7 +1,8 @@
 ---
 title: "Setup maven java for windows mac OS"
 categories:
-  - Selenium
+  - SELENIUM
+  - MAVEN
 tags: [setupInstall, maven, java]  
   #- Post Formats
 #link: https://github.com
@@ -15,7 +16,7 @@ If you are using Selenium library for Java language binding to write automation 
 
 **Setup JAVA:**
 
-For windows or Mac OS, you can refer here - [install and setup Java in detail]({% post_url /2025-06-19-install-setup-java-windows-mac %}).
+For windows or Mac OS, you can refer here - [install and setup Java in detail]({% post_url setup_install/2025-06-19-install-setup-java-windows-mac %}).
 
 Setup Maven
 -----------
@@ -72,7 +73,7 @@ export PATH=$PATH:$M2_HOME/bin
 ```
 
 
-Note – refer [Setup env variable for windows or Mac OS]({% post_url /2025-06-19-setup-env-variables-windowsos-mac %}) to know how to add environment variables.
+Note – refer [Setup env variable for windows or Mac OS]({% post_url /setup_install/2025-06-19-setup-env-variables-windowsos-mac %}) to know how to add environment variables.
 
 **Verify if Maven present:**
 

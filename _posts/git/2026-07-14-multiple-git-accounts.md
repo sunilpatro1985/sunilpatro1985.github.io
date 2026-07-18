@@ -2,8 +2,8 @@
 title: How to Manage Multiple GitHub Accounts on One Machine
 author: Sunil Patro
 date: 2026-07-14 17:00:00 +0530
-categories: [DevOps, GIT]
-tags: [git, git accounts]     # TAG names should always be lowercase
+categories: [DEVOPS, GIT]
+tags: [git, gitaccounts]     # TAG names should always be lowercase
 render_with_liquid: false
 ---
 
@@ -74,12 +74,14 @@ Add the following configuration layout. Notice how we use unique aliases for the
 Host github.com-personal
   HostName github.com
   User git
+  PreferredAuthentications publickey
   IdentityFile ~/.ssh/id_ed25519_personal
 
 # Work GitHub
 Host github.com-work
   HostName github.com
   User git
+  PreferredAuthentications publickey
   IdentityFile ~/.ssh/id_ed25519_work
 
 ```
@@ -134,6 +136,9 @@ When cloning via SSH, replace `github.com` in the clone URL with the custom `Hos
 ```bash
 # Original URL: git@github.com:personal-user/repo.git
 git clone git@github.com-personal:personal-user/repo.git
+
+Example - 
+git clone git@github.com-personal:sunilpatro1985/Playwright-TS-BoilerPlate-Framework.git
 
 ```
 

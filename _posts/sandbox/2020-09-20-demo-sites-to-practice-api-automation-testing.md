@@ -2,8 +2,10 @@
 title: "Demo sites to practice API automation testing"
 date: 2020-09-20
 categories: 
-  - "api"
-tags: [DEMO, PRACTICE]   
+  - "DEMO"
+  - "PARCTICE"
+  - "TESTING"
+tags: [demo, practice, sandbox, api]  
 ---
 
 Along with the e2e testing, now a days it's important to perform API automation testing and also integration testing, and there are several tools and libraries available for API testing.
@@ -50,7 +52,7 @@ For this above demo portal, there are API end points available for practicing th
 
 [https://practice.expandtesting.com/notes/api/api-docs/](https://practice.expandtesting.com/notes/api/api-docs/)
 
-> [Demo web sites for e2e automation testing]({% post_url /2017-12-12-demo-web-sites-for-automation-testing %})
+> [Demo web sites for e2e automation testing]({% post_url sandbox/2017-12-12-demo-web-sites-for-automation-testing %})
 
 [http://dummy.restapiexample.com/](http://dummy.restapiexample.com/)
 

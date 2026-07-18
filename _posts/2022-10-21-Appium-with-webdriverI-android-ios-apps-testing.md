@@ -1,14 +1,10 @@
 ---
 title: "Getting started with Appium and WebdriverIO for mobile app testing"
 #last_modified_at: 2016-03-09T16:20:02-05:00
-categories:
-  - BLOG
-  - APPIUM
-tags:
-  - Post Formats
-  - readability
-  - standard
-  - Appium
+categories: 
+  - "APPIUM"
+  - "FRAMEWORK"
+tags: ["appium", "framework"]  
 ---
 
 **WebdriverIO** is an advanced automation framework for web and mobile application.

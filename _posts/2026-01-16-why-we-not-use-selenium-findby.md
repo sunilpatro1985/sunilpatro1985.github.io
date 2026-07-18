@@ -1,8 +1,10 @@
 ---
 title: why we should not use selenium findby
 date: 2026-01-16 20:08:12
-categories: [MISC, QAVBOX]
-tags: [misc]     # TAG names should always be lowercase
+categories: 
+  - "SELENIUM"
+  - "FRAMEWORK"
+tags: [selenium, framework]  
 ---
 
 ## Reasons to Avoid @FindBy in POM

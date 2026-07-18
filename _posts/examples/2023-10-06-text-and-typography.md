@@ -1,8 +1,8 @@
 ---
 title: Text and Typography
 date: 2023-10-06 21:03:00
-categories: [BLOG, Demo]
-tags: [Jekyll]
+categories: [BLOG, DEMO]
+tags: [jekyll]
 pin: false
 math: true
 mermaid: true

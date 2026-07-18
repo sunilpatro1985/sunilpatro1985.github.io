@@ -2,10 +2,10 @@
 title: "Sample demo web sites to practice automation testing"
 date: 2017-12-12
 categories: 
-  - "protractor"
-  - "seleniumtesting"
-  - "softwaretesting"
-tags: [DEMO, PRACTICE]    
+  - "DEMO"
+  - "PARCTICE"
+  - "TESTING"
+tags: [demo, practice, sandbox]    
 ---
 
 In this post, we will see top demo websites to practice automation testing using tools like Selenium, protractor, UFT \[formerly known as QTP\] or Katalan studio etc...

@@ -5,7 +5,7 @@ categories:
   - BLOG
   - DEMO
 tags:
-  - Jekyll
+  - jekyl
   - update
 ---
 
