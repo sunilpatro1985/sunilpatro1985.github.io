@@ -1,4 +1,214 @@
 ---
-layout: home
-# Index page
+layout: page
+pagination:
+  enabled: false
 ---
+
+<link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}">
+
+<!-- Hero Section -->
+<section class="hero-section landing-section">
+  <img src="https://avatars.githubusercontent.com/sunilpatro1985" alt="Sunil K Patro" class="hero-avatar" onerror="this.style.display='none'">
+  <h1 class="hero-title">Sunil K Patro</h1>
+  <p class="hero-tagline">
+    Bridging the Gap Between Software Development, QA Engineering, and Seamless Customer Experience
+  </p>
+  <div class="hero-cta">
+    <a href="/blog/" class="btn-primary-custom">
+      <i class="fas fa-book-open"></i> Read Blog
+    </a>
+    <a href="https://github.com/sunilpatro1985" class="btn-outline-custom" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class="landing-section">
+  <div class="stats-row">
+    <div class="stat-item">
+      <h3>10+</h3>
+      <p>Years Experience</p>
+    </div>
+    <div class="stat-item">
+      <h3>50+</h3>
+      <p>Blog Posts</p>
+    </div>
+    <div class="stat-item">
+      <h3>15+</h3>
+      <p>Open Source Projects</p>
+    </div>
+    <div class="stat-item">
+      <h3>1000+</h3>
+      <p>GitHub Commits</p>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section class="landing-section">
+  <div class="section-header">
+    <h2 class="section-title">Technical Skills</h2>
+    <p class="section-subtitle">Technologies and tools I work with</p>
+  </div>
+  
+  <div class="skills-grid">
+    <div class="skill-category">
+      <i class="fas fa-code skill-icon"></i>
+      <h4>Programming Languages</h4>
+      <div class="skill-tags">
+        <span class="skill-tag">Java</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">TypeScript</span>
+      </div>
+    </div>
+    
+    <div class="skill-category">
+      <i class="fas fa-vial skill-icon"></i>
+      <h4>Test Automation</h4>
+      <div class="skill-tags">
+        <span class="skill-tag">Selenium</span>
+        <span class="skill-tag">Appium</span>
+        <span class="skill-tag">Playwright</span>
+        <span class="skill-tag">WebDriverIO</span>
+        <span class="skill-tag">Cypress</span>
+      </div>
+    </div>
+    
+    <div class="skill-category">
+      <i class="fas fa-cogs skill-icon"></i>
+      <h4>Frameworks & Tools</h4>
+      <div class="skill-tags">
+        <span class="skill-tag">TestNG</span>
+        <span class="skill-tag">JUnit</span>
+        <span class="skill-tag">Maven</span>
+        <span class="skill-tag">REST Assured</span>
+        <span class="skill-tag">Postman</span>
+      </div>
+    </div>
+    
+    <div class="skill-category">
+      <i class="fas fa-cloud skill-icon"></i>
+      <h4>DevOps & CI/CD</h4>
+      <div class="skill-tags">
+        <span class="skill-tag">Docker</span>
+        <span class="skill-tag">Jenkins</span>
+        <span class="skill-tag">GitHub Actions</span>
+        <span class="skill-tag">Git</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience Section -->
+<section class="landing-section">
+  <div class="section-header">
+    <h2 class="section-title">Experience</h2>
+    <p class="section-subtitle">Professional journey highlights</p>
+  </div>
+  
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-date">2020 - Present</div>
+      <div class="timeline-title">Senior QA Engineer</div>
+      <div class="timeline-company">Leading automation initiatives</div>
+      <div class="timeline-desc">
+        Building robust test automation frameworks, mentoring teams, and establishing best practices for continuous testing in CI/CD pipelines.
+      </div>
+    </div>
+    
+    <div class="timeline-item">
+      <div class="timeline-date">2017 - 2020</div>
+      <div class="timeline-title">QA Automation Engineer</div>
+      <div class="timeline-company">End-to-end test automation</div>
+      <div class="timeline-desc">
+        Developed comprehensive test suites for web and mobile applications using Selenium, Appium, and REST API testing.
+      </div>
+    </div>
+    
+    <div class="timeline-item">
+      <div class="timeline-date">2014 - 2017</div>
+      <div class="timeline-title">Software QA Engineer</div>
+      <div class="timeline-company">Quality assurance foundations</div>
+      <div class="timeline-desc">
+        Started journey in software testing, learned automation fundamentals, and contributed to building quality-first culture.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Projects -->
+<section class="landing-section">
+  <div class="section-header">
+    <h2 class="section-title">Featured Projects</h2>
+    <p class="section-subtitle">Open source contributions and personal projects</p>
+  </div>
+  
+  <div class="projects-grid">
+    <div class="project-card">
+      <div class="project-header">
+        <i class="fas fa-flask project-icon"></i>
+        <h4 class="project-title">UI Lab</h4>
+      </div>
+      <p class="project-desc">
+        A collection of demo web components and UI elements for practicing automation testing.
+      </p>
+      <div class="project-tech">
+        <span class="tech-tag">HTML</span>
+        <span class="tech-tag">CSS</span>
+        <span class="tech-tag">JavaScript</span>
+      </div>
+      <a href="https://sunilpatro1985.github.io/ui-lab/" class="project-link" target="_blank">
+        <i class="fas fa-external-link-alt"></i> View Project
+      </a>
+    </div>
+    
+    <div class="project-card">
+      <div class="project-header">
+        <i class="fas fa-mobile-alt project-icon"></i>
+        <h4 class="project-title">Appium Framework</h4>
+      </div>
+      <p class="project-desc">
+        Mobile test automation framework with WebDriverIO for Android and iOS applications.
+      </p>
+      <div class="project-tech">
+        <span class="tech-tag">Appium</span>
+        <span class="tech-tag">WebDriverIO</span>
+        <span class="tech-tag">Node.js</span>
+      </div>
+      <a href="https://github.com/sunilpatro1985" class="project-link" target="_blank">
+        <i class="fab fa-github"></i> View on GitHub
+      </a>
+    </div>
+    
+    <div class="project-card">
+      <div class="project-header">
+        <i class="fas fa-robot project-icon"></i>
+        <h4 class="project-title">Selenium Framework</h4>
+      </div>
+      <p class="project-desc">
+        Production-ready Selenium framework with design patterns, reporting, and CI/CD integration.
+      </p>
+      <div class="project-tech">
+        <span class="tech-tag">Java</span>
+        <span class="tech-tag">Selenium</span>
+        <span class="tech-tag">Maven</span>
+      </div>
+      <a href="https://github.com/sunilpatro1985" class="project-link" target="_blank">
+        <i class="fab fa-github"></i> View on GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Blog CTA Section -->
+<section class="landing-section">
+  <div class="blog-cta">
+    <h3>📚 Explore the Blog</h3>
+    <p>Tutorials, guides, and insights on software testing, automation, and development tools.</p>
+    <a href="/blog/" class="btn-white">
+      <i class="fas fa-arrow-right"></i> Browse All Posts
+    </a>
+  </div>
+</section>
